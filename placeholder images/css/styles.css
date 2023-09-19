@@ -4,13 +4,21 @@ html{
     box-sizing: border-box;
     font-size: 62.5%;
 }
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
 body{
+    background: url(../sharon-mccutcheon-unsplash.jpg) no-repeat;
+    background-size: cover;
+    color: #343434;
     background: #f6f6f6;
     margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     line-height: 1.4;
 }
+
 h1,h2,h3{
     font-family: 'Open Sans', sans-serif;
     /* With this two properties my output is not looking that much good that's why i kept it in comment
@@ -59,6 +67,7 @@ header::before{
     background: url(../sharon-mccutcheon-unsplash.jpg) center;
     background-size: cover;
     content: "";
+    content-visibility: 0;
     display: block;
     height: 375px;
 }
