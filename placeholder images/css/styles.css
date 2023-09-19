@@ -7,6 +7,10 @@ body{
 
 /* Home
 ------------------------*/
+.home{
+    background: url(../sharon-mccutcheon-unsplash.jpg) no-repeat;
+    background-size: cover;
+}
 
 /* Footer
 ------------------------*/
