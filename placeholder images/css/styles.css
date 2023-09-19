@@ -4,6 +4,14 @@
 body{
     background: #f6f6f6;
 }
+/*Links*/
+a {
+    color: #3c8453;
+}
+a:hover {
+    color: #bcaa96;
+    text-decoration: none;
+}
 
 /* Home
 ------------------------*/
