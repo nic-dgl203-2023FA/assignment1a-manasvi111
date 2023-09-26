@@ -19,7 +19,15 @@ a:hover{
     width: 800px;
     margin: 0 auto;
 }
-
+h1{
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
 /*Profile
 ------------------------*/
 header{
