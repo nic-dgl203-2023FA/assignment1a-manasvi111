@@ -72,6 +72,8 @@ header{
 }
 .project-item{
     overflow: hidden;
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
 }
 .project-item img {
     float: left;
