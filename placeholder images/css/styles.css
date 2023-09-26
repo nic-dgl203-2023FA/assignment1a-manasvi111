@@ -90,10 +90,7 @@ header{
 .project-item{
     overflow: hidden;
 }
-.project-item img {
-    float: left;
-    margin-right: 20px;
-}
+
 .project-item h3{
     margin-top: 0;
 }
@@ -131,4 +128,13 @@ footer{
 .contact-list a{
     padding: 15px;
     display: inline-block;
+}
+
+/*Responsive
+------------------------*/
+@media screen and (min-width:750px){
+    .project-item img {
+        float: left;
+        margin-right: 20px;
+    }
 }
