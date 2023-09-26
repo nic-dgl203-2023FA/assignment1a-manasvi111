@@ -1,5 +1,9 @@
 /*Global styles
 ------------------------*/
+body{
+    color: #343434;
+}
+
 img{
     width: 300px;
 }
@@ -7,6 +11,9 @@ img{
 
 /*Profile
 ------------------------*/
+header{
+    background: #2f3061;
+}
 
 /*projects
 ------------------------*/
