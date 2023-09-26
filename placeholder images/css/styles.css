@@ -100,4 +100,10 @@ footer{
 .contact-list{
     list-style-type: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.contact-list a{
+    padding: 15px;
+    display: inline-block;
 }
