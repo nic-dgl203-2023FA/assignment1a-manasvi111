@@ -55,7 +55,8 @@ header ul li a:hover {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 56.25rem;
+    width: 90%;
+    max-width: 900px;
     margin: 0 auto;
   }
   
@@ -88,7 +89,8 @@ header ul li a:hover {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 56.25rem;
+    width: 90%;
+    max-width: 900px;
     margin: 0 auto;
   }
   
@@ -113,6 +115,7 @@ header ul li a:hover {
   .projects img{
     height:300px;
     width:450px;
+    max-width: 100%;
   }
   
   .projects h3 {
@@ -146,10 +149,11 @@ header ul li a:hover {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 56.25rem;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
   }
   
   .experience-summary{
@@ -157,7 +161,6 @@ header ul li a:hover {
     justify-content: center;
 
   }
-
 
   .experience-container h2 {
     font-size: 1.5rem;
@@ -201,8 +204,6 @@ header ul li a:hover {
     margin: 0 0 5px;
   }
 
-
-
   /* Education  */
   .education-container {
     background-color: #f7f7f7;
@@ -210,7 +211,8 @@ header ul li a:hover {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 56.25rem;
+    width: 90%;
+    max-width: 900px;
     margin: 0 auto;
   }
   
@@ -298,3 +300,28 @@ footer {
 #modal-toggle:checked + .modal-container {
   display: flex;
 }
+
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  header {
+      flex-direction: column; 
+      align-items: flex-start;
+  }
+
+  header ul {
+      flex-direction: column;
+  }
+
+  header ul li {
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+
+  .modal-container {
+    width: 62%;
+  }
+
+}
+
