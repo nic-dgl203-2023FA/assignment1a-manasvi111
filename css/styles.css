@@ -9,8 +9,6 @@ body {
     line-height: 1.5;
 }
 
-
-
 /* Header styles */
 header {
     background-color: #6FC0E3;
@@ -109,7 +107,12 @@ header ul li a:hover {
     border: 1px solid #ddd;
     border-radius: 10px;
     background-color: #fff;
-    text-align: left;
+    text-align: center;
+  }
+
+  .projects img{
+    height:300px;
+    width:450px;
   }
   
   .projects h3 {
@@ -138,6 +141,7 @@ header ul li a:hover {
 
   /* Work Experience */
   .experience-container {
+    background-image: url("../images/background.jpg");
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -206,8 +210,8 @@ header ul li a:hover {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 56.25rem; /* 900px converted to rem (if root font size is 16px) */
-    margin: 0 auto; /* Center the section horizontally */
+    width: 56.25rem;
+    margin: 0 auto;
   }
   
   .education-container h2 {
