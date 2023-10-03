@@ -48,3 +48,208 @@ header ul li a:hover {
 
 
 
+/* Biography section styles */
+.biography {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 56.25rem;
+    margin: 0 auto;
+  }
+  
+  .biography h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .biography p {
+    font-size: 1rem;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .biography a {
+    color: #ff5733;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .biography a:hover {
+    color: #e60000;
+  }
+  
+
+  /* Projects website */
+  .projects-container {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 56.25rem;
+    margin: 0 auto;
+  }
+  
+  .projects-container h2 {
+    font-size: 1.5rem;
+  }
+  
+  .projects-container p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .projects {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: left;
+  }
+  
+  .projects h3 {
+    font-size: 1.2rem;
+    margin-top: 0;
+  }
+  
+  .projects p {
+    font-size: 1rem;
+  }
+  
+  .projects a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .projects a.btn:hover {
+    background-color: #555;
+  }
+  
+
+
+  /* Work Experience */
+  .experience-container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 56.25rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .experience-summary{
+    display: flex;
+    justify-content: center;
+
+  }
+
+
+  .experience-container h2 {
+    font-size: 1.5rem;
+    margin: 0 0 20px;
+  }
+  
+  .experience-container p {
+    font-size: 1rem;
+    margin: 0 0 10px;
+  }
+  
+  .experience {
+    margin: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  .experience h3 {
+    font-size: 1.25rem;
+    margin: 0 0 10px;
+  }
+  
+  .experience p {
+    font-size: 1rem;
+    margin: 0 0 5px;
+    font-style: italic;
+  }
+
+  .experience h4 {
+    font-style: italic;
+  }
+  
+  .experience ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .experience ul li {
+    font-size: 1rem;
+    margin: 0 0 5px;
+  }
+
+
+
+  /* Education  */
+  .education-container {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 56.25rem; /* 900px converted to rem (if root font size is 16px) */
+    margin: 0 auto; /* Center the section horizontally */
+  }
+  
+  .education-container h2 {
+    font-size: 1.5rem;
+    margin: 0 0 20px;
+  }
+  
+  .education {
+    margin: 20px 0;
+  }
+  
+  .education h3 {
+    font-size: 1.25rem;
+    margin: 0 0 10px;
+  }
+  
+  .education p {
+    font-size: 1rem;
+    margin: 0 0 5px;
+  }
+   
+
+/* Footer */
+footer {
+    background-color: #6FC0E3;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.footer-contact{
+    text-align: center;
+}
+
+.footer-contact ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+}
+
+.footer-contact ul li{
+    padding: 10px;
+}
