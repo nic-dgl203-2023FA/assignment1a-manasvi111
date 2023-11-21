@@ -386,7 +386,7 @@ footer {
 }
 
 /* Starts larger, gets smaller and ends in original size */
-
+/* Second button */
 .scaling-text {
   font-size: 36px;
   animation: scaleText 2s linear alternate infinite;
