@@ -46,7 +46,14 @@ header ul li a:hover {
     color: red;
     cursor: pointer;
 }
-
+a{
+  text-decoration: none;
+    color: #fff;
+}
+a:hover{
+  color: red;
+  cursor: pointer;
+}
 
 
 /* Biography section styles */
