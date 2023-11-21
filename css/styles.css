@@ -404,6 +404,7 @@ footer {
   }
 }
 
+/* Third button - inserted svg file for Robot animation*/ 
 /* SVG Image */
 .grid-container img{
   animation: moves 2s alternate 3;
