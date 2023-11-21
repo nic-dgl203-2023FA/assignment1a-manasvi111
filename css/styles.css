@@ -484,3 +484,20 @@ footer {
   }
 }
 
+/* Animation for SVG page  */
+.wrap-svg{
+  margin: 3rem;
+}
+
+#Body, #Head, #Leg1, #Leg2, #Eye1, #Eye2, #Star, #Mouth {
+  animation: moves 9s alternate 2;
+}
+
+/* Text Wrap animation */
+.text-wrap p{
+  animation: moves 10s alternate 2;
+  --scale:1.75;
+  --dist: 0.5%;
+  --deg: 5deg;
+  font-size: 2rem;
+}
