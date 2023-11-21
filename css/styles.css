@@ -463,7 +463,7 @@ footer {
 }
 
 /* Cubic Bezier Function */
-
+/* Sixth Button for cubic bezier function */
 .cubic {
   animation: applyCB 2s cubic-bezier(0.25, 0.1, 0.25, 1) infinite alternate;
 }
