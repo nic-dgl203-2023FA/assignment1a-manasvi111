@@ -325,3 +325,153 @@ footer {
 
 }
 
+/* For Small Screen Size */
+@media screen and (max-width:900px){
+  header {
+      display: flex;
+      flex-direction: column;
+  }
+  .work-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+  }
+}
+
+/* Common styles for both large and small screens */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+  max-width: 1000px;
+  margin: 150px auto;
+}
+
+.grid-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Media query for small screens (max-width: 600px) */
+@media (max-width: 600px) {
+  .grid-container {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+  }
+}
+
+
+/* On Hover */
+
+.my-button {
+  background-color: #034f5b;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.4s, color 0.4s, transform 0.4s;
+}
+
+.my-button:hover {
+  background-color: #007bff;
+  color: #000;
+  transform: scale(1.1);
+  transition: background-color 0.2s, color 0.2s, transform 0.5s;
+}
+
+/* Starts larger, gets smaller and ends in original size */
+
+.scaling-text {
+  font-size: 36px;
+  animation: scaleText 2s linear alternate infinite;
+}
+
+@keyframes scaleText {
+  0% {
+      transform: scale(1.2);
+  }
+  60% {
+      transform: scale(0.5);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+/* SVG Image */
+.grid-container img{
+  animation: moves 2s alternate 3;
+}
+
+@keyframes moves {
+  100%{
+      transform: translateX(200%);
+  }
+}
+
+/* Blinking Text */
+.blink-text {
+  font-size: 24px;
+  overflow: hidden;
+  border-right: 3px solid #000;
+  animation: typing 3s steps(8), blink 0.5s steps(1) infinite;
+}
+
+@keyframes typing {
+  from {
+      width: 0;
+  }
+  to {
+      width: 100%;
+  }
+}
+
+@keyframes blink {
+  0%, 100% {
+      border-color: transparent;
+  }
+  50% {
+      border-color: #000;
+  }
+}
+
+
+/* Flipping Word */
+.flip-word {
+  font-size: 24px;
+  animation: flip 2s ease-in-out infinite;
+}
+
+@keyframes flip {
+  0%, 100% {
+      transform: rotateX(0deg);
+  }
+  50% {
+      transform: rotateX(180deg);
+  }
+  100% {
+      transform: rotateX(360deg);
+  }
+}
+
+/* Cubic Bezier Function */
+
+.cubic {
+  animation: applyCB 2s cubic-bezier(0.25, 0.1, 0.25, 1) infinite alternate;
+}
+
+@keyframes applyCB {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(100px);
+  }
+}
+
