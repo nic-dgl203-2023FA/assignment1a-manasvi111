@@ -369,7 +369,7 @@ footer {
 /* On Hover */
 
 .my-button {
-  background-color: #034f5b;
+  background-color: #3ad0e7;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -379,7 +379,7 @@ footer {
 }
 
 .my-button:hover {
-  background-color: #007bff;
+  background-color: #027cff;
   color: #000;
   transform: scale(1.1);
   transition: background-color 0.2s, color 0.2s, transform 0.5s;
@@ -416,6 +416,7 @@ footer {
   }
 }
 
+/* Fourth button
 /* Blinking Text */
 .blink-text {
   font-size: 24px;
