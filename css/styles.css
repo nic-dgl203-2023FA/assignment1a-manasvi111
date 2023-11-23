@@ -1,0 +1,503 @@
+/* Global Styles */
+body {
+    background-color: #ffffff;
+    color: #343434;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Header styles */
+header {
+    background-color: #6FC0E3;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    margin-right: 20px;
+}
+
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header ul li a:hover {
+    color: red;
+    cursor: pointer;
+}
+a{
+  text-decoration: none;
+    color: #fff;
+}
+a:hover{
+  color: red;
+  cursor: pointer;
+}
+
+
+/* Biography section styles */
+.biography {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .biography h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .biography p {
+    font-size: 1rem;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .biography a {
+    color: #ff5733;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .biography a:hover {
+    color: #e60000;
+  }
+  
+
+  /* Projects website */
+  .projects-container {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .projects-container h2 {
+    font-size: 1.5rem;
+  }
+  
+  .projects-container p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .projects {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .projects img{
+    height:300px;
+    width:450px;
+    max-width: 100%;
+  }
+  
+  .projects h3 {
+    font-size: 1.2rem;
+    margin-top: 0;
+  }
+  
+  .projects p {
+    font-size: 1rem;
+  }
+  
+  .projects a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .projects a.btn:hover {
+    background-color: #555;
+  }
+
+  /* Work Experience */
+  .experience-container {
+    background-image: url("../images/background.jpg");
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .experience-summary{
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .experience-container h2 {
+    font-size: 1.5rem;
+    margin: 0 0 20px;
+  }
+  
+  .experience-container p {
+    font-size: 1rem;
+    margin: 0 0 10px;
+  }
+  
+  .experience {
+    margin: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  .experience h3 {
+    font-size: 1.25rem;
+    margin: 0 0 10px;
+  }
+  
+  .experience p {
+    font-size: 1rem;
+    margin: 0 0 5px;
+    font-style: italic;
+  }
+
+  .experience h4 {
+    font-style: italic;
+  }
+  
+  .experience ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .experience ul li {
+    font-size: 1rem;
+    margin: 0 0 5px;
+  }
+
+  /* Education  */
+  .education-container {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .education-container h2 {
+    font-size: 1.5rem;
+    margin: 0 0 20px;
+  }
+  
+  .education {
+    margin: 20px 0;
+  }
+  
+  .education h3 {
+    font-size: 1.25rem;
+    margin: 0 0 10px;
+  }
+  
+  .education p {
+    font-size: 1rem;
+    margin: 0 0 5px;
+  }
+   
+
+/* Footer */
+footer {
+    background-color: #6FC0E3;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.footer-contact{
+    text-align: center;
+}
+
+.footer-contact ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+}
+
+.footer-contact ul li{
+    padding: 10px;
+}
+
+
+/* Styles for the modal container */
+.modal-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styles for modal div */
+.modal-tog{
+  text-align: center;
+}
+
+/* Styles for the modal content */
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Style for the close button */
+.close-button {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  cursor: pointer;
+}
+
+/* Show the modal when the input is checked */
+#modal-toggle:checked + .modal-container {
+  display: flex;
+}
+
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  header {
+      flex-direction: column; 
+      align-items: flex-start;
+  }
+
+  header ul {
+      flex-direction: column;
+  }
+
+  header ul li {
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+
+  .modal-container {
+    width: 62%;
+  }
+
+}
+
+/* For Small Screen Size */
+@media screen and (max-width:900px){
+  header {
+      display: flex;
+      flex-direction: column;
+  }
+  .work-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+  }
+}
+
+/* Common styles for both large and small screens */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+  max-width: 1000px;
+  margin: 150px auto;
+}
+
+.grid-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Media query for small screens (max-width: 600px) */
+@media (max-width: 600px) {
+  .grid-container {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+  }
+}
+
+
+/* On Hover */
+
+.my-button {
+  background-color: #3ad0e7;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.4s, color 0.4s, transform 0.4s;
+}
+
+.my-button:hover {
+  background-color: #027cff;
+  color: #000;
+  transform: scale(1.1);
+  transition: background-color 0.2s, color 0.2s, transform 0.5s;
+}
+
+/* Starts larger, gets smaller and ends in original size */
+/* Second button */
+.scaling-text {
+  font-size: 36px;
+  animation: scaleText 2s linear alternate infinite;
+}
+
+@keyframes scaleText {
+  0% {
+      transform: scale(1.2);
+  }
+  60% {
+      transform: scale(0.5);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+/* Third button - inserted svg file for Robot animation*/ 
+/* SVG Image */
+.grid-container img{
+  animation: moves 2s alternate 3;
+}
+
+@keyframes moves {
+  100%{
+      transform: translateX(200%);
+  }
+}
+
+/* Fourth button
+/* Blinking Text */
+.blink-text {
+  font-size: 24px;
+  overflow: hidden;
+  border-right: 3px solid #000;
+  animation: typing 3s steps(8), blink 0.5s steps(1) infinite;
+}
+
+@keyframes typing {
+  from {
+      width: 0;
+  }
+  to {
+      width: 100%;
+  }
+}
+
+@keyframes blink {
+  0%, 100% {
+      border-color: transparent;
+  }
+  50% {
+      border-color: #000;
+  }
+}
+
+/* Fifth button flipping word effect */
+/* Flipping Word */
+.flip-word {
+  font-size: 24px;
+  animation: flip 2s ease-in-out infinite;
+}
+
+@keyframes flip {
+  0%, 100% {
+      transform: rotateX(0deg);
+  }
+  50% {
+      transform: rotateX(180deg);
+  }
+  100% {
+      transform: rotateX(360deg);
+  }
+}
+
+/* Cubic Bezier Function */
+/* Sixth Button for cubic bezier function */
+.cubic {
+  animation: applyCB 2s cubic-bezier(0.25, 0.1, 0.25, 1) infinite alternate;
+}
+
+@keyframes applyCB {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(100px);
+  }
+}
+
+/* Animation for SVG page  */
+.wrap-svg{
+  margin: 3rem;
+}
+
+#Body, #Head, #Leg1, #Leg2, #Eye1, #Eye2, #Star, #Mouth {
+  animation: moves 9s alternate 2;
+}
+
+/* Text Wrap animation */
+.text-wrap p{
+  animation: moves 10s alternate 2;
+  --scale:1.75;
+  --dist: 0.5%;
+  --deg: 5deg;
+  font-size: 2rem;
+}
